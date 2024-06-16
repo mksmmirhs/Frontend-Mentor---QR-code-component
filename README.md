@@ -39,19 +39,19 @@ I have used box shadow , media query , flex to make element center
 To see how you can add code snippets, see below:
 
 ```css
-body {
-  background-color: #d5e1ef;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-@media (max-width: 375px) {
-  .card-container {
-    height: 497px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  }
-}
+  body {
+        background-color: #d5e1ef;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  @media (min-width: 376px) {
+        .card-container {
+          height: 473px;
+          box-shadow: none;
+        }
+      }
 ```
 
 ### Continued development
